@@ -25,21 +25,21 @@ for (let i = 0; i < prCount; i++) {
         symbol = '-'
         let pr = +prompt('Misolni yeching: ' + num1 + symbol + num2)
         let answer = num1 - num2 == pr ? 'javobingiz togri' : 'Javobingiz notogri'
-        alert(num1 + symbol + num2 + ' =' + (num1 + num2) + ' sizning javobingiz ' + pr + '.  ' + answer)
+        alert(num1 + symbol + num2 + ' =' + (num1 - num2) + ' sizning javobingiz ' + pr + '.  ' + answer)
     } else if (symbol == 3) {
         symbol = '*'
         let pr = +prompt('Misolni yeching: ' + num1 + symbol + num2)
         let answer = num1 * num2 == pr ? 'javobingiz togri' : 'Javobingiz notogri'
-        alert(num1 + symbol + num2 + ' =' + (num1 + num2) + ' sizning javobingiz ' + pr + '.  ' + answer)
+        alert(num1 + symbol + num2 + ' =' + (num1 * num2) + ' sizning javobingiz ' + pr + '.  ' + answer)
     } else if (symbol == 4) {
         symbol = '/'
         let pr = +prompt('Misolni yeching: ' + num1 + symbol + num2)
         let answer = num1 / num2 == pr ? 'javobingiz togri' : 'Javobingiz notogri'
-        alert(num1 + symbol + num2 + ' =' + (num1 + num2) + ' sizning javobingiz ' + pr + '.  ' + answer)
+        alert(num1 + symbol + num2 + ' =' + (num1 / num2) + ' sizning javobingiz ' + pr + '.  ' + answer)
     } else if (symbol == 5) {
         symbol = '%'
         let pr = +prompt('Misolni yeching: ' + num1 + symbol + num2)
         let answer = num1 / num2 == pr ? 'javobingiz togri' : 'Javobingiz notogri'
-        alert(num1 + symbol + num2 + ' =' + (num1 + num2) + ' sizning javobingiz ' + pr + '.  ' + answer)
+        alert(num1 + symbol + num2 + ' =' + (num1 % num2) + ' sizning javobingiz ' + pr + '.  ' + answer)
     }
 }
